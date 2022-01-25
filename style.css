@@ -45,14 +45,15 @@ main{
     display: flex;
     width: 100%;
     margin-bottom: 30px;
+    height: 50vh;
     justify-content: space-around;
 }
 
 section{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    justify-content: space-around;
+    width: 50%;
+    justify-content: space-between;
     align-items: center;
     /*background-color:hotpink;*/
 }
@@ -67,7 +68,7 @@ section{
 h2{
     width: 70%;
     height: 150px;
-    font-size: 3rem;
+    font-size: 3rem !important;
     text-align: center;
     /*background-color: greenyellow;*/
 }
@@ -86,12 +87,12 @@ p{
 }
 
 aside{
-    width: 60vw;
+    width: 50%;
 }
 
 .img-drum{
-    height: 70vh;
-    width:50vw;
+    height: 50vh;
+    width:35vw;
 }
 
 .premium{
