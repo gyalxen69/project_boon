@@ -127,3 +127,39 @@ aside{
     border-radius: 20px;
     background-color: white;
 }
+
+.btn-bombo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.btn-crash{
+    position: absolute;
+}
+
+.btn-hit-hat{
+    position: absolute;
+}
+
+.btn-red{
+    position: absolute;
+}
+
+.btn-t1{
+    position: absolute;
+}
+
+.btn-t2{
+    position: absolute;
+}
+
+.btn-t3{
+    position: absolute;
+}
+
+.btn-t4{
+    position: absolute;
+}
