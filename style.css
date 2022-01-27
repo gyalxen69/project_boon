@@ -6,7 +6,6 @@
 }
 
 body{
-    margin: auto;
     background-color: #010020;
 }
 
@@ -44,21 +43,23 @@ li:nth-child(4) {
 
 li:hover{
     font-size: 1.5rem;
+    border-radius: 5px;
     color: rgb(14, 187, 101);
 }
 
 main{
     display: flex;
-    width: 100%;
+    position: relative;
+    /*width: auto;*/
     margin-bottom: 30px;
-    height: 50vh;
-    justify-content: space-around;
+    /*height:auto;*/
+    justify-content: center;
 }
 
 section{
     display: flex;
+    position: relative;
     flex-direction: column;
-    width: 50%;
     justify-content: space-between;
     align-items: center;
     /*background-color:hotpink;*/
@@ -72,8 +73,7 @@ section{
 }
 
 h2{
-    width: 70%;
-    height: 150px;
+    width: 50%;
     font-size: 3rem !important;
     text-align: center;
     /*background-color: greenyellow;*/
@@ -93,12 +93,13 @@ p{
 }
 
 aside{
-    width: 50%;
+    position: relative;
+    /*width: 50%;*/
+    /*background-color: palevioletred;*/
 }
 
 .img-drum{
     height: 50vh;
-    width:35vw;
 }
 
 .premium{
@@ -128,11 +129,18 @@ aside{
     background-color: white;
 }
 
+/*.drum{
+    position: relative;
+}*/
+
 .btn-bombo{
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
+    border: none;
+    top: 17px;
+    left: 9px;
     background-color: black;
 }
 
@@ -162,4 +170,30 @@ aside{
 
 .btn-t4{
     position: absolute;
+}
+
+@media screen and (max-width: 414px) {
+    ul{
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: blanchedalmond;
+    }
+
+    .section-text{
+        margin-bottom: 30px;
+    }
+
+    .img-drum{
+        width: 100%;
+    }
+
+    .btn-price{
+        width: 90px;
+    }
+
 }
